@@ -1,5 +1,106 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+html {
+  overflow-x: hidden;
+}
+
 body {
-  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  font-size: 36px;
+  color: #000000;
+  text-align: center;
+}
+
+h4 {
+  font-size: 16px;
+  color: #B0B0B0;
+  font-weight: 400;
+  text-align: center;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 344px;
+  margin: auto;
+}
+
+.btn {
+  width: 48%;
+  border-radius: 5px;
+  background: #1A4F8B;
+  color: #ffffff;
+}
+
+.btn--large {
+  width: 100%;
+  border-radius: 8px;
+  text-transform: uppercase;
+}
+
+.input {
+  width: 100%;
+  height: 50px;
+  border: 1px solid #C3C3C3;
+  border-radius: 5px;
+  padding: 0 12px 0 48px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  outline: none;
+}
+
+.input[type="submit"] {
+  padding: 0 12px;
+}
+
+.input:focus {
+  border-color: #1A4F8B;
+}
+
+.input:focus + label {
+  color: #1A4F8B;
+}
+
+.form_page__img {
+  width: 212px;
+  margin: auto;
+}
+
+.form_page__img img {
+  display: block;
+  width: 100%;
+}
+
+.form__input {
+  position: relative;
+  margin-bottom: 36px;
+}
+
+.form label {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: calc(50% - 25px / 2);
+  left: 12px;
+  color: #B0B0B0;
+}
+
+.form label img {
+  width: 100%;
 }
 /*# sourceMappingURL=main.css.map */

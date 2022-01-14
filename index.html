@@ -18,10 +18,25 @@
     <h1>Welcome Back!</h1>
 
     <form class="form" action="">
-      <input class="form__email" type="email" name="email">
-      <input class="form__password" type="password" name="password">
+
+      <div class="form__input">
+        <input class="input" type="email" name="email" id="email">
+        <label for="email">
+          <svg xmlns="http://www.w3.org/2000/svg">
+            <use xlink:href="img/icons/sprite.svg#user" />
+          </svg>
+        </label>
+      </div>
+      <div class="form__input">
+        <input class="input" type="password" name="password" id="password">
+        <label for="password">
+          <svg xmlns="http://www.w3.org/2000/svg">
+            <use xlink:href="img/icons/sprite.svg#lock" />
+          </svg>
+        </label>
+      </div>
       <a class="link" href="">Forgot Password?</a>
-      <input class="form__submit" type="submit" value="Log In">
+      <input class="form__submit input btn btn--large" type="submit" value="Log In">
     </form>
 
     <h4>
@@ -29,8 +44,8 @@
     </h4>
 
     <div class="social_auth">
-      <div class="social_auth__btn">Facebook</div>
-      <div class="social_auth__btn">Google</div>
+      <div class="social_auth__btn btn">Facebook</div>
+      <div class="social_auth__btn btn">Google</div>
     </div>
 
   </div>
